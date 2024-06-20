@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+html{
+    font-size: 120%;
+}
+header,footer{
+    background: rgb(3, 114, 136);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header div p span{
+    font-weight: bold;
+}
+header button{
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: 500ms;
+}
+header button:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+main{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 50px;
+}
+main .config{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+main .config div{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+main .config div h3{
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.actions{
+    display: flex;
+    gap: 10px;
+}
+.actions input{
+    width: 300px;
+    padding: 10px;
+}
+.actions button{
+    border: 0;
+    padding: 10px 15px;
+    color: white;
+    font-size: 1.2em;
+    width: 200px;
+}
+.actions button:first-child{
+    background: coral;
+}
+.actions button:last-child{
+    background: lightseagreen;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#loading-img{
+    width: 100px;
+}
+.hidden{
+    display: none!important;
+}
+#loading{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.764);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 5em;
+}

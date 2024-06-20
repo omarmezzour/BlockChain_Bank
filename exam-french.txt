@@ -1,0 +1,21 @@
+SavingsContract
+Créez un contrat intelligent nommé SavingsContract en Solidity. 
+Le contrat doit permettre aux utilisateurs de sauvegarder leur Ether et de le retirer quand ils le souhaitent. 
+Assurez-vous que votre contrat inclut les fonctionnalités suivantes :
+
+### Général
+        - Le propriétaire du contrat doit être défini comme le déployeur du contrat.
+        - Un montant de dépôt minimum qui ne peut être défini et géré que par le propriétaire du contrat.
+### Mécanisme de dépôt
+        - Une fonction payable qui permet aux utilisateurs de déposer de l'Ether dans le contrat.
+        - Les utilisateurs doivent pouvoir effectuer plusieurs dépôts.
+        - Un mécanisme pour suivre le total des dépôts de chaque utilisateur.
+        - Assurez-vous que chaque dépôt atteint ou dépasse le montant de dépôt minimum.
+### Mécanisme de retrait
+        - Une fonction qui permet aux utilisateurs de retirer leur Ether du contrat.
+        - Un mécanisme pour vérifier et mettre à jour le solde de l'utilisateur lors du retrait.
+        - Assurez-vous que les utilisateurs ne peuvent retirer que jusqu'à la totalité du montant qu'ils ont déposé.
+
+---------------- Web3.js ----------------
+- L'affichage de l'adresse du compte et de son solde se fera manuellement après avoir cliqué sur le bouton 'connect wallet'.
+- Afficher 'Minimum to Deposit' et 'your deposit' en unités ETH.

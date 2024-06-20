@@ -1,0 +1,23 @@
+---------------- Solidity ----------------
+
+SavingsContract
+Create a smart contract named SavingsContract in Solidity. 
+The contract should allow users to save their Ether and withdraw it whenever they want. 
+Ensure your contract includes the following functionalities:
+
+### General
+        - The contract owner should be set to the deployer of the contract.
+        - A minimum deposit amount that can only be set and managed by the contract owner.
+### Deposit Mechanism
+        - A payable function that allows users to deposit Ether into the contract.
+        - Users should be able to make multiple deposits.
+        - A mechanism to keep track of each user's total deposits.
+        - Ensure that each deposit meets or exceeds the minimum deposit amount.
+### Withdrawal Mechanism
+        - A function that allows users to withdraw their Ether from the contract.
+        - A mechanism to check and update the user's balance during withdrawal.
+        - Ensure that users can only withdraw up to the total amount they have deposited.
+
+---------------- Web3.js ----------------
+- the display of the account address and its balance will be done manually after the click on 'connect wallet' Button 
+- display 'Minimum to Deposit' and 'your deposit' on ETH unit
